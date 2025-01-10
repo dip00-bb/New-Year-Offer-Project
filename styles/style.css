@@ -1,0 +1,583 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/* fonts  */
+
+.font-inter {
+    font-family: "Inter", serif;
+    font-style: normal;
+}
+
+.font-merriweather {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+
+/*  set the width of all section and main*/
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+section {
+    width: 70%;
+    margin-bottom: 120px;
+    border-radius: 16px;
+
+}
+
+
+/* ---------------- happy new year section ------------------*/
+
+#happy-new-year {
+    height: 600px;
+    margin-top: 50px;
+
+}
+
+#happy-new-year .content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #070211 0%, rgba(7, 2, 17, 0) 100%),
+        url("/images/Banner-Image.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+}
+
+#happy-new-year .content .new-year-title {
+    width: 632px;
+    text-align: center;
+}
+
+#happy-new-year .content h5 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+#happy-new-year .content h1 {
+    font-size: 72px;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+
+
+/* ---------------- holiday section ------------------*/
+#holiday .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #holiday .content img {
+    width: 803px;
+} */
+
+#holiday .content h1 {
+    font-size: 88px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 48px;
+}
+
+
+
+
+#holiday .content h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+
+
+/*   ---------------- mid-night party ------------------ */
+
+#midnight-party {
+    height: 600px;
+
+}
+
+#midnight-party .content {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #070211 0%, rgba(7, 2, 17, 0) 100%), url("/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+#midnight-party .content .text-content {
+    width: 60%;
+    height: 40%;
+}
+
+#midnight-party .text-content h1 {
+    font-size: 64px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    margin-left: 126px;
+}
+
+#midnight-party .text-content p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+    margin-left: 126px;
+}
+
+#midnight-party .text-content a {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-left: 158px;
+}
+
+#midnight-party .content .images24{
+    display: flex;
+    width: 30%;
+    height: 40%;
+}
+
+
+
+/* ---------------- launching Section ------------------ */
+
+#launching {
+    height: 482px;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.1) 0%, rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#launching .content {
+    width: 40%;
+    height: 55%;
+    text-align: center;
+}
+
+#launching .content h4 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+}
+
+#launching .content h4 span {
+    color: #FF0000;
+}
+
+#launching .content button {
+    width: 167px;
+    height: 56px;
+    margin-top: 48px;
+    border-radius: 8px;
+    background-color: #FF0000;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+
+/* ---------------- coming soon Section ------------------ */
+
+/* #coming-soon{
+    height: 465px;
+} */
+
+
+
+/* ---------------- coming soon left ------------------ */
+
+#coming-soon .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#coming-soon .content .left {
+    width: 50%;
+    margin-right: 50px;
+}
+
+
+
+#coming-soon .content .left h3 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+
+/*  ---------------- coming soon middle ------------------ */
+
+#coming-soon .content .middle {
+    width: 35%;
+    border: 10px solid #FF0000;
+    border-radius: 50%;
+    padding: 35px;
+
+}
+
+#coming-soon .content .middle img {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/*  ---------------- coming soon right ------------------ */
+
+#coming-soon .content .right {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 118px;
+
+}
+
+
+
+/*   ---------------- coming soon right-top ------------------ */
+
+
+
+#coming-soon .content .right .right-top {
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+
+#coming-soon .right .right-top h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+
+
+
+
+
+
+
+/* ---------------- sale50 ------------------ */
+
+#sale50 {
+    height: 987px;
+    /* border: 5px solid blue; */
+}
+
+#sale50 .content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#sale50 .content .title {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+#sale50 .content .title h5{
+    font-size: 24px;
+    font-weight: 600;
+    color: #070211;
+    margin-bottom: 16px;
+}
+
+#sale50 .content .title h3 span {
+    color: #FF0000;
+}
+
+
+#sale50 .content .title h3 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 28px;
+
+}
+
+#sale50 .content .title h3 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 28px;
+
+}
+
+
+
+
+
+#sale50 .content .pictures {
+    width: 100%;
+    height: 80%;
+
+}
+
+#sale50 .content .bottomimage {
+    position: absolute;
+    bottom: 0px;
+}
+
+#sale50 .content .giftbox {
+    position: absolute;
+    bottom: 85px;
+    left: 60px;
+    z-index: 1;
+
+
+}
+
+
+#sale50 .content .discount50 {
+    position: absolute;
+    bottom: 280px;
+    right: 40px;
+    z-index: 1;
+}
+
+
+
+
+/* ---------------- portfolio ------------------ */ 
+
+
+#portfolio{
+    height:1163px;
+}
+
+
+#portfolio .content{
+    width: 100%;
+    height: 100%;
+} 
+
+
+#portfolio .content .title{
+    width: 100%;
+    height: 20%;
+
+}
+
+
+#portfolio .content .title h3{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+
+#portfolio .content .title p{
+    margin-bottom: 48px;
+}
+
+#portfolio .content .product{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+
+
+
+/* ---------------------- subscribe ---------------------- */
+
+#subscribe{
+    height:616px;
+
+}
+#subscribe .content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-radius: 16px;
+}
+
+
+
+#subscribe .content .items{
+    width: 60%;
+    height: 70%;
+    text-align: center;
+}
+
+
+
+#subscribe .content .items h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #070211;
+    margin-bottom: 22px;
+}
+
+#subscribe .content .items p{
+    margin-bottom: 48px;
+}
+
+/* #subscribe .content .items div{
+    display: flex;
+} */
+
+#subscribe .content .items input{
+    height: 72px;
+    width: 60%;
+    border: 0;
+    outline: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px ;
+    font-size: 18px;
+    padding: 25px 0 25px 30px;
+    /* padding:25px auto 35px 30px; 
+    padding-left: 30px; */
+}
+
+#subscribe .content .items button{
+    height: 72px;
+    width:210px;
+    background-color: #FF0000;
+    font-size: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+    border: 0;
+    outline: 0;
+    position: relative;
+    left: -4px;
+    top: 1px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+/* ---------------------- footer ---------------------- */ 
+
+
+
+footer .contact-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    padding: 30px 0;
+}
+
+footer .social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    padding: 40px 0;
+} 
+
+footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top:40px ;
+}
+
+
+
+
+footer{
+    width: 100%;
+    padding:120px 140px ;
+    background-color: #070211;
+}
+
+
+
+
+
+
+
+
+
+/*  repeated style */
+
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #070211;
+    font-family: "Inter", serif;
+    font-style: normal;
+    
+} 
+
+
+.foot-description {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+    font-family: "Inter", serif;
+    font-style: normal;
+} 
+
+
+
+.titleh5{
+    font-family: "Inter", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
